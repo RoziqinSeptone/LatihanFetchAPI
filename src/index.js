@@ -36,4 +36,3 @@ fetch('https://jsonplaceholder.typicode.com/users')
         });
         document.getElementById('containers').innerHTML = output
       }) .catch(error => console.error('Gagal Mendapatkan Data',error))
-      console.log(variabel)
