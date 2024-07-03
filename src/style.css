@@ -1,6 +1,98 @@
+body{
+    background-color: #212121;
+}
+
 .border{
-    border: 2px solid black;
-    width: 20vw;
+    overflow: auto;
     margin: 10px;
-    height: 20vw;
+    width: 40vw;
+    height: 40vw;
+    font-family: arial;
+    background-color: #f7faf8;
+    border: 2px solid #69ff70;
+    box-sizing: border-box;
+}
+
+.address{
+    background-color: #cdf7cf;
+    width: 30vw;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.company{
+    background-color: #cdf7cf;
+    width: 30vw;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.id{
+    background-color: #69ff70;
+    margin: 0;
+    z-index: 1;
+    margin-left: 0;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    color: white;
+    width: 100%;
+}
+
+.card{
+    padding: 10px;
+}
+
+#containers{
+    border: solid 2px black;
+    background-color: #363636;
+    display: flex;
+    width: 96vw;
+    overflow: auto;
+}
+
+.navigation{
+    background-color: #0c8212;;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:2 ;
+    padding: 20px;
+}
+
+
+.navigation input{
+    font-size: 26px;
+    border: none;
+}
+
+.navigation button{
+    font-size: 26px;
+    background-color: lime;
+    color: #0c8212;
+    border: solid 3px green;
+}
+
+.navigation button:hover{
+    transition: all 200ms;
+    cursor: pointer;
+    font-size: 26px;
+    background-color: lime;
+    color: white;
+    border: solid 4px white;
+}
+
+.navigation button:active{
+    filter: opacity(60%);
+    font-size: 26px;
+    background-color: lime;
+    color: white;
+    border: solid 3px white;
+}
+
+
+.main{
+    margin-top: 100px;
 }
