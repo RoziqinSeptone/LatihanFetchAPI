@@ -94,5 +94,24 @@ body{
 
 
 .main{
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.description p{
+    margin-top: 80px; 
+    color: white;
+    font-family: arial;
+    text-align: justify;
+    width: 75%;
+}
+
+.description a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.description a:hover{
+    cursor:pointer ;
+    color: white;
+    text-decoration: underline;
 }
