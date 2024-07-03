@@ -1,5 +1,5 @@
 const variabel = fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(json => console.log(json))
-      .catch(error => console.error('Gagal Mendapatkan Data',error))
+      .catch(error => console.error('Gagal Mendapatkan Data',err))
       console.log(variabel)
